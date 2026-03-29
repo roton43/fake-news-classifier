@@ -76,7 +76,7 @@ Deployed using **Gradio**.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fake-news-classifier
+git clone https://github.com/roton43/fake-news-classifier
 cd fake-news-classifier
 pip install -r requirements.txt
 ```
