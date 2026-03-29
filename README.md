@@ -41,15 +41,15 @@ the best model as an interactive web app.
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| Multinomial Naive Bayes | 0.969 | 0.97 | 0.97 | 0.97 |
-| **Logistic Regression** | **0.996** | **1.00** | **0.99** | **1.00** |
+| Multinomial Naive Bayes | 0.9812 | 0.9815 | 0.9820 | 0.9810 |
+| **Logistic Regression** | **0.9939** | **0.9940** | **0.9960** | **.9960** |
 
 ---
 
 ## Final Model
 
 **Model:** Logistic Regression  
-**Accuracy:** 0.996  
+**Accuracy:** 0.9939  
 **Why this model?**  
 Logistic Regression outperforms Multinomial Naive Bayes because it does **not**
 assume feature independence. Real-world text features (TF-IDF weights) are
@@ -112,7 +112,7 @@ fake-news-classifier/
 ├── models/
 │   └── best_model.pkl       # Saved pipeline (generated after training)
 ├── screenshots/
-│   └── gradio_interface.png # Screenshot of the web app
+│   └── gradio_interface.png and evaluation metrices  # Screenshot of the web app 
 ├── app.py                   # Gradio deployment
 ├── requirements.txt
 └── README.md
